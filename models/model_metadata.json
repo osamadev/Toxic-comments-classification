@@ -1,0 +1,66 @@
+{
+  "model_name": "Logistic Regression",
+  "feature_type": "TF-IDF",
+  "algorithm": "Logistic Regression",
+  "target_columns": [
+    "toxic",
+    "severe_toxic",
+    "obscene",
+    "threat",
+    "insult",
+    "identity_hate"
+  ],
+  "metrics": {
+    "macro_f1": 0.5067002995231304,
+    "micro_f1": 0.6360161281876735,
+    "hamming_loss": 0.0362995456681811,
+    "macro_auc": 0.9744757881729424
+  },
+  "per_class_metrics": {
+    "toxic": {
+      "accuracy": 0.9311608961303462,
+      "precision": 0.5988037727168162,
+      "recall": 0.8517670157068062,
+      "f1_score": 0.7032284209104417,
+      "auc_roc": 0.9647759251108794
+    },
+    "severe_toxic": {
+      "accuracy": 0.9721447595174683,
+      "precision": 0.24321880650994576,
+      "recall": 0.838006230529595,
+      "f1_score": 0.3770147161878066,
+      "auc_roc": 0.9792674759610691
+    },
+    "obscene": {
+      "accuracy": 0.9673194422685257,
+      "precision": 0.6428571428571429,
+      "recall": 0.8816326530612245,
+      "f1_score": 0.7435456110154905,
+      "auc_roc": 0.9806617303496612
+    },
+    "threat": {
+      "accuracy": 0.9901300328998903,
+      "precision": 0.14868804664723032,
+      "recall": 0.6891891891891891,
+      "f1_score": 0.2446043165467626,
+      "auc_roc": 0.9869902564855613
+    },
+    "insult": {
+      "accuracy": 0.951496161679461,
+      "precision": 0.5120262390670554,
+      "recall": 0.8705080545229245,
+      "f1_score": 0.6447911886186324,
+      "auc_roc": 0.971932457764633
+    },
+    "identity_hate": {
+      "accuracy": 0.9699514334952217,
+      "precision": 0.20601237842617154,
+      "recall": 0.7925170068027211,
+      "f1_score": 0.3270175438596491,
+      "auc_roc": 0.9632268833658507
+    }
+  },
+  "saved_at": "2025-11-24T21:37:03.049802",
+  "model_file": "best_model_logistic_regression_tf_idf.pkl",
+  "vectorizer_file": "tfidf_vectorizer.pkl"
+}
