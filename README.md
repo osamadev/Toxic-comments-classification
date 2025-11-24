@@ -217,17 +217,8 @@ The system evaluates models using:
 
 ## Future Improvements
 
+- Fine-tune the hyperparameters of the models using GridSearch and cross validation 
 - Ensemble methods combining multiple models
 - Advanced handling for rare classes (SMOTE, focal loss)
 - Transformer-based models (BERT, DistilBERT)
-- Real-time API endpoint
-- Model versioning and A/B testing
-
-## License
-
-This project is for educational purposes as part of the NLP Module Mid-Module Assignment.
-
-## Contact
-
-For questions or issues, please refer to the project documentation or contact the development team.
 
