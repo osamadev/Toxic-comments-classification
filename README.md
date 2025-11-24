@@ -20,7 +20,7 @@ A comprehensive machine learning system for classifying toxic comments with mult
 ## Project Structure
 
 ```
-toxic-comments-classification-proj/
+toxic-comments-classification/
 ├── dataset/
 │   ├── train/
 │   │   └── train.csv
@@ -31,11 +31,9 @@ toxic-comments-classification-proj/
 │   ├── tfidf_vectorizer.pkl
 │   └── model_metadata.json
 ├── toxic-comments-classification-analysis.ipynb  # Main analysis notebook
-├── toxic-comments-EDA.ipynb         # Exploratory data analysis
 ├── inference.py                      # Inference helper module
 ├── app.py                            # Streamlit web application
 ├── requirements.txt                  # Python dependencies
-├── toxic-comments-classification-report.md  # Analysis report
 └── README.md                         # This file
 ```
 
