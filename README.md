@@ -44,10 +44,10 @@ toxic-comments-classification-proj/
 ### 1. Clone or Download the Project
 
 ```bash
-cd toxic-comments-classification-proj
+cd Toxic-comments-classification
 ```
 
-### 2. Create Virtual Environment (Recommended)
+### 2. Create Virtual Environment
 
 ```bash
 python -m venv .venv
